@@ -114,7 +114,8 @@ function buildCharts(sample) {
       title: 'Bacteria Cultures per Sample',
       margin: {t:0},
       xaxis : {title:'OTU ID'},
-      margin: {t:30},      
+      margin: {t:30},   
+      width: 600, height: 500,   
       hovermode: 'closest'
     };
     // 3. Use Plotly to plot the data with the layout.
@@ -153,7 +154,8 @@ function buildCharts(sample) {
 
       // 5. Create the layout for the gauge chart.
       var gaugeLayout = { 
-        margin: {t: 0} 
+        width: 600, height: 500,
+        margin: {t: 10, l:10} 
       }
           // 6. Use Plotly to plot the gauge data and layout.
     Plotly.newPlot("gauge", gaugeData, gaugeLayout);
