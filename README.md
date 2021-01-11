@@ -1,2 +1,6 @@
 # mod12_challenge
-Dashboard to support study volunteers as they contribute to Improbable Beef belly button bacteria study
+## Purpose
+This dashboard is to support research study volunteers as they contribute to Improbable Beef's belly button bacteria study.
+
+## Summary
+This challenge was difficult. I have never used Javascript before and was suprised by it's flexibility, but also how particular it is compaired with Python. As always, the TAs were a constant help.
